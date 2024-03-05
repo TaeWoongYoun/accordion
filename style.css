@@ -41,6 +41,6 @@ a {color: #222;}
     height: 100px;
 }
 
-.accordion .section.large:target h3 + div {
+.large:target div {
     overflow-y: scroll;
 }
