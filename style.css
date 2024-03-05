@@ -1,6 +1,11 @@
-* {margin: 0;padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     color: #222;
+    text-decoration: none;
 }
 
 .accordion {
@@ -16,7 +21,7 @@ a {
 }
 
 .section {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 5px solid #eee;
     padding: 0 20px;
     background: #fff;
 }
@@ -25,7 +30,7 @@ a {
     display: block;
     font-weight: 500;
     padding: 15px 0;
-    text-decoration: none;
+    font-weight: 700;
 }
 
 .section h3 + div {
@@ -35,12 +40,7 @@ a {
 }
 
 .accordion :target h3 + div {
-    height: 150px;
-}
-
-.section :target h3 a {
-    text-decoration: none;
-    font-weight: bold;
+    height: 120px;
 }
 
 .large:target div {
