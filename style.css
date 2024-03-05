@@ -26,17 +26,9 @@ a {color: #222;}
     text-decoration: none;
 }
 
-.accordion h3 a:hover {
-    text-decoration: none;
-}
-
 .accordion h3 + div {
     height: 0;
     overflow: hidden;
-    -webkit-transition: height 0.3s ease-in;
-    -moz-transition: height 0.3s ease-in;
-    -o-transition: height 0.3s ease-in;
-    -ms-transition: height 0.3s ease-in;
     transition: height 0.3s ease-in;
 }
 
@@ -50,5 +42,5 @@ a {color: #222;}
 }
 
 .accordion .section.large:target h3 + div {
-    overflow: auto;
+    overflow-y: scroll;
 }
