@@ -42,7 +42,3 @@ a {
 .accordion :target h3 + div {
     height: 120px;
 }
-
-.large:target div {
-    overflow-y: scroll;
-}
